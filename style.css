@@ -7,23 +7,22 @@
 ::-webkit-scrollbar {
     display: none;
   }
+  body{
+      background-color: #000000;
+  }
 
-.hero-text-s1 span{
-    display: block;
-    font-size: 7rem;
-    font-weight: bold;
-}
+  
 
-.home{
-    background-color: #000000;
-}
 .section01{
     padding: 2rem;
 }
 
 .hero-text-s1 span{
-color: #666666;
-text-transform: uppercase; 
+    display: block;
+    font-size: 7rem;
+    font-weight: bold;
+    color: #666666;
+    text-transform: uppercase; 
 }
 .hero-text-s1 span:nth-child(3){
     color: #70f542;
@@ -79,7 +78,6 @@ text-transform: uppercase;
     background-color: transparent;
 }
 .s2-sub{
-
     padding: 2rem;
 }
 
@@ -102,19 +100,65 @@ text-transform: uppercase;
     color: white;
     font-weight: 600;
 }
-.icon{
-    
-    display: flex;
- 
-}
 
 .chat-icon{
-    
-    height: 100%;
-    width: 100%;
-    /* background-color: red; */
+    height: 80%;
+    width: 85%;
     background-image: url("assests/chat.svg");
     background-size: contain;
     background-repeat: no-repeat;
-    background-position-x: right;
+    background-position-x: center;
+}
+
+.section03,.section04,.section05{
+    background-color: #0f0f0f;
+    padding: 2rem;
+}
+
+.s3-sub,.s4-sub,.s5-sub{
+    padding: 2rem;
+}
+
+.s3-sub .hero-text-s3,
+.s4-sub .hero-text-s4,
+.s5-sub .hero-text-s5
+{
+    color: #70f542;
+    display: block;
+    font-size: 7rem;
+    font-weight: bold;
+}
+
+.s3-sub .child-text-s3,
+.s4-sub .child-text-s4,
+.s5-sub .child-text-s5
+{
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+}
+
+.crowd-icon{
+    height: 100%;
+    width: 100%;
+    background-image: url("assests/crowd.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+.email-icon{
+    height: 100%;
+    width: 100%;
+    background-image: url("assests/email.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+.moreChat-icon{
+    height: 100%;
+    width: 100%;
+    background-image: url("assests/moreChat.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x:center;
 }
