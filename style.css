@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    display: none;
+  }
+
+.hero-text-s1 span{
+    display: block;
+    font-size: 7rem;
+    font-weight: bold;
+}
+
+.home{
+    background-color: #000000;
+}
+.section01{
+    padding: 2rem;
+}
+
+.hero-text-s1 span{
+color: #666666;
+text-transform: uppercase; 
+}
+.hero-text-s1 span:nth-child(3){
+    color: #70f542;
+}
+.child-text-s1 span{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.input-s1{
+    padding-top: 1rem;
+}
+
+.input-s1 input{
+    width: 25rem;
+    border-radius: 15px;
+    padding: 6px;
+    background-color: #262626;
+    
+}
+.input-s1 input::placeholder { 
+    color:#5c5c5c;
+    word-spacing: 2px;
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-align:left;
+    padding: 10px;
+}
+
+.input-s1 .img-btn{
+    background-image: url("assests/iconSend.png");
+    height: 2rem;
+    width: 2rem;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    background-size: contain;
+    position: relative;
+    right: 45px;
+    top: 8px;
+}
+
+.section02{
+    background-color: #0f0f0f;
+    border-radius: 4rem 4rem 0rem 0rem;
+    padding: 2rem;
+}
+
+.secondary-nav nav{
+    border-radius: 2rem;
+    background-color: transparent;
+}
+.s2-sub{
+
+    padding: 2rem;
+}
+
+.s2-sub .hero-text-s2{
+    color: #70f542;
+    display: block;
+    font-size: 7rem;
+    font-weight: bold;
+}
+
+.s2-sub .child-text-s2{
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+}
+
+.btn{
+    letter-spacing: 0.9px;
+    background-color: rgb(112 245 66 / 60%);
+    color: white;
+    font-weight: 600;
+}
+.icon{
+    
+    display: flex;
+ 
+}
+
+.chat-icon{
+    
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    background-image: url("assests/chat.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
