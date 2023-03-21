@@ -10,9 +10,11 @@
   body{
       background-color: #000000;
   }
-
-  
-
+.navbar{
+    background-color: rgba(0,0,0, 0.4);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
 .section01{
     padding: 2rem;
 }
@@ -73,10 +75,29 @@
     padding: 2rem;
 }
 
+.secondary-nav{
+    position: sticky;
+    top: 3rem;
+}
+
 .secondary-nav nav{
     border-radius: 2rem;
     background-color: transparent;
 }
+
+.secondary-nav ul::before{
+    content: "";
+    position: absolute;
+    border-bottom: 0px solid #70f542;
+    width: 0%;
+    height: 3.5rem;
+    transition: all 2s ease-in-out;
+}
+.secondary-nav ul:hover{
+    border-bottom: 2px solid #70f542;
+    width: 100%;
+}
+
 .s2-sub{
     padding: 2rem;
 }
